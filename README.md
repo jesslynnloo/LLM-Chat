@@ -1,28 +1,28 @@
 # LLM Chat Application
 
-An **LLM-powered conversational web application** built with **FastAPI**, **LangChain**, **Gradio**, and **SQLite**.  
-This application allows users to create and manage multiple chat sessions with persistent conversation history.  
+An **LLM-powered conversational web application** built with **FastAPI**, **LangChain**, **Gradio**, and **SQLite**.
+This application allows users to create and manage multiple chat sessions with persistent conversation history. 
 It is fully containerized using **Docker Compose** for simple deployment.
 
 ---
 
 ## Core Features & Tech Stack
 
-- **FastAPI backend** for chat handling and history management  
-- **Gradio UI** for an interactive, browser-based chat interface  
+- **FastAPI backend** for chat handling and history management 
+- **Gradio UI** for an interactive, browser-based chat interface 
 - **SQLite database** to persist chat sessions and chat history
-- **Streaming LLM responses** for real-time conversation updates  
-- **Support for multiple sessions** (create, switch, delete chat session)  
-- **Containerized setup** via Docker Compose for easy deployment  
-- **Pytest unit tests** for backend functionality  
+- **Streaming LLM responses** for real-time conversation updates 
+- **Support for multiple sessions** (create, switch, delete chat session) 
+- **Containerized setup** via Docker Compose for easy deployment
+- **Pytest unit tests** for backend functionality
 
 ---
 
 ## Architecture Overview
 
 
-- **Frontend:** Gradio  
-- **Backend:** FastAPI + LangChain + OpenAI API  
+- **Frontend:** Gradio
+- **Backend:** FastAPI + LangChain + OpenAI API
 - **Database:** SQLite 
 - **Containerization:** Docker Compose
 
@@ -98,6 +98,14 @@ You can:
 - Create a new chat session
 - Clear chat
 - Delete the entire chat session
+
+---
+
+## 💻 Application Interface Preview
+
+Below is a preview of the LLM Chat interface:
+
+![LLM Chat UI](assets/UI_screenshot.png)
 
 ---
 
