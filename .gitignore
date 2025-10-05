@@ -21,9 +21,8 @@ test_venv/
 .vscode/
 
 # SQLite & data
-data/*.db
-data/*.sqlite
-data/*.sqlite3
+data/*
+!data/.gitkeep
 
 # Logs
 *.log
