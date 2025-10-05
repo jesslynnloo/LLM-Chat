@@ -101,7 +101,7 @@ You can:
 
 ---
 
-## 💻 Application Interface Preview
+## Application Interface Preview
 
 Below is a preview of the LLM Chat interface:
 
